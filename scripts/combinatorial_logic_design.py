@@ -8,7 +8,8 @@ To find biological implementation of a Boolean function
 """
 
 # module to simplify boolean function, Robert Dick algorithm
-import qm2
+import qm as qm2
+# download at https://pypi.python.org/pypi/qm
 import graphic_combinatorial_modules as gcm
 import design_DNA_sequence_comb as dns
 import os
