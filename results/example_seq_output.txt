@@ -1,0 +1,8 @@
+This 2-input history-dependent function, 
+[[1, 0, 2], [1, 0, 3]], 
+is implemented with 2 strain(s).
+
+The DNA sequence is generated using <i>E. coli</i> promoters, terminators and GOI sequences.
+The integrases 1, 2 correspond respectively to Bxb1, Tp901.
+For the outputs 1, 2, 3, the GFP, RFP, BFP genes are used.
+
