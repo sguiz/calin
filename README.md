@@ -35,6 +35,8 @@ A example_boolean folder will be create in your results directory with 2 genbank
 ### Example for history-dependent logic
 
 To obtain the biological design of the following history-dependent function:
+
+
 <img src="https://github.com/sguiz/calin/blob/master/results/example_seq/seq_function.png" width="200">
 
 Please execute the code in the terminal as following:
