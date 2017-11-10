@@ -31,7 +31,7 @@ To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).n
 
 A XOR-gate folder will be create in your results directory with 2 genbank files, and 2 image files.
 
-![test image size](https://github.com/sguiz/calin/blob/master/results/example_boolean/example_boolean_Strain1.png){:height="10%" width="10%"}
+<img src="https://github.com/sguiz/calin/blob/master/results/example_boolean/example_boolean_Strain1.png" width="50" height="50">
 ![Design for strain 2](https://github.com/sguiz/calin/blob/master/results/example_boolean/example_boolean_Strain2.png | width=50)
 
 ### Example for history-dependent logic
