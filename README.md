@@ -8,7 +8,7 @@ A web-interface using as source code this code is available at http://synbio.cbs
 ## Installing
 
 CALIN code requires Python 2.7 and installation of DNAplotlib, biopython and matplotlib 1.2 or newer. 
-For biopython, please download the module at http://biopython.org/wiki/Download and to install: 'pip install biopython'.
+For biopython, please download the module at http://biopython.org/wiki/Download and to install: `pip install biopython`.
 For DNAplotlib, please download the python code at https://github.com/VoigtLab/dnaplotlib and add the file to your calin directory.
 
 To use CALIN, download all python files and place them to a single python diectory (with DNAplotlib).
@@ -26,12 +26,11 @@ Please first create a results folder in your CALIN python directory. The results
 
 To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).not(C), please execute the code as folowing:
 
-'python main.py 'comb' '2' '10001' 'XOR-gate' '
+`python main.py 'comb' '2' '10001' 'XOR-gate'`
 
 A XOR-gate folder will be create in your results directory with 2 genbank files, and 2 image files.
 
 ### Example for history-dependent logic
-
 
 ## Authors
 
