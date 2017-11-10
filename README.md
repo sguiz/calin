@@ -10,8 +10,7 @@ A web-interface using as source code this code is available at http://synbio.cbs
 CALIN code requires Python 2.7 and installation of DNAplotlib, qm, biopython and matplotlib 1.2 or newer. 
 - For biopython, please download the module at http://biopython.org/wiki/Download and to install: `pip install biopython`.
 - For DNAplotlib, please download the python code at https://github.com/VoigtLab/dnaplotlib and add the file to your calin script directory.
-- For qm, please download the python code at https://pypi.python.org/pypi/qm and add the file to your calin script directory./n
-
+- For qm, please download the python code at https://pypi.python.org/pypi/qm and add the file to your calin script directory.
 
 To use CALIN, download all python files and place them to the same diectory than DNAplotlib and qm.
 
