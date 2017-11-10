@@ -49,7 +49,7 @@ A example_seq folder will be create in your results directory with 2 genbank fil
 
 ## License
 
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
 
 ## Acknowledgments
 
