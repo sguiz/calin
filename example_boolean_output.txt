@@ -1,0 +1,5 @@
+This 2-input Boolean function 1001 is implemented using 2 strain(s).
+
+DNA sequences are generated using <i>E. coli</i> promoters, terminators and GOI sequences.
+Integrases 1, 2 correspond respectively to Bxb1, Tp901.
+

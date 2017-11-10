@@ -1,0 +1,50 @@
+LOCUS       Strain1_22              1450 bp    DNA              UNK 01-JAN-1980
+DEFINITION  Sequence of the computational device in the strain1 to implement the
+            Boolean function required.
+ACCESSION   NA
+VERSION     NA
+KEYWORDS    .
+SOURCE      .
+  ORGANISM  .
+            .
+FEATURES             Location/Qualifiers
+     spacer_sp0      1..40
+     promoter_P7     41..86
+     attB_Bxb1       87..136
+     ECK120033737    137..193
+     attP_Bxb1       194..243
+     attB_Tp901      244..296
+     B0015           297..425
+     attP_Tp901      426..478
+     RiboJ           479..553
+     BCD2            554..638
+     sfGFP           639..1355
+     spN             1356..1395
+     Term_L3S3P00    1396..1450
+ORIGIN
+        1 ctcggatacc cttactctgt tgaaaacgaa tagataggtt aaaaagagta ttgacttcgc
+       61 atctttttgt acctataatg tgtggatcgg ccggcttgtc gacgacggcg gtctccgtcg
+      121 tcaggatcat ccgggcggaa acacagaaaa aagcccgcac ctgacagtgc gggctttttt
+      181 tttcgaccaa aggtcggccg gcttgtcgac gacggcggtc tccgtcgtca ggatcatccg
+      241 ggcatgccaa cacaattaac atctcaatca aggtaaatgc tttttgcttt ttttgcccag
+      301 gcatcaaata aaacgaaagg ctcagtcgaa agactgggcc tttcgtttta tctgttgttt
+      361 gtcggtgaac gctctctact agagtcacac tggctcacct tcgggtgggc ctttctgcgt
+      421 ttataatgcc aacacaatta acatctcaat caaggtaaat gctttttgct ttttttgcag
+      481 ctgtcaccgg atgtgctttc cggtctgatg agtccgtgag gacgaaacag cctctacaaa
+      541 taattttgtt taagggccca agttcactta aaaaggagat caacaatgaa agcaattttc
+      601 gtactgaaac atcttaatca tgctaaggag gttttctaat gtcaaaagga gaagaacttt
+      661 ttacaggtgt agtacctatc ttggttgaat tggatggtga tgttaacggt cacaaatttt
+      721 ctgtacgtgg tgaaggtgaa ggtgatgcaa ctaacggtaa attgacactt aaattcattt
+      781 gtacaactgg aaaacttcct gttccttggc ctactcttgt tacaacattg acatatggag
+      841 tacaatgttt ttcacgttat cctgatcata tgaaacgtca cgattttttt aaatctgcta
+      901 tgccagaagg ttatgtacaa gaacgtacaa tttcatttaa agatgacgga acatataaaa
+      961 cacgtgctga agtaaaattc gaaggtgaca ctcttgttaa tcgtatcgaa ttgaaaggaa
+     1021 tcgatttcaa agaagatggt aacattttgg gacacaaact tgaatacaac ttcaactctc
+     1081 ataatgttta tatcacagct gacaaacaaa aaaacggtat taaagctaat tttaaaattc
+     1141 gtcacaatgt tgaagatgga tctgttcaat tggctgatca ttatcaacaa aatacaccaa
+     1201 tcggagacgg accagtattg cttccagata accactacct ttctactcaa tcagttcttt
+     1261 caaaagatcc taacgaaaaa cgtgaccata tggtacttct tgaatttgtt acagcagcag
+     1321 gtatcactca cggtatggac gaactttata aataaattat tgaccacttc cgagtagaat
+     1381 cgtgcttcag taagaccaat tattgaaggg gagcgggaaa ccgctcccct ttttttgttt
+     1441 ctggtctccc
+//
