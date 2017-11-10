@@ -24,9 +24,9 @@ Please first create a results folder in your CALIN python directory. The results
 
 ### Example for Boolean logic
 
-To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).not(C), please execute the code as folowing:
+To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).not(C), please execute the code in the terminal as following:
 
-`python main.py 'comb' '2' '10001' 'XOR-gate'`
+`python directory/main.py 'comb' '2' '10001' 'XOR-gate'`
 
 A XOR-gate folder will be create in your results directory with 2 genbank files, and 2 image files.
 
