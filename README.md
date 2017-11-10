@@ -7,11 +7,12 @@ A web-interface using as source code this code is available at http://synbio.cbs
 
 ## Installing
 
-CALIN code requires Python 2.7 and installation of DNAplotlib, biopython and matplotlib 1.2 or newer. 
+CALIN code requires Python 2.7 and installation of DNAplotlib, qm, biopython and matplotlib 1.2 or newer. 
 For biopython, please download the module at http://biopython.org/wiki/Download and to install: `pip install biopython`.
-For DNAplotlib, please download the python code at https://github.com/VoigtLab/dnaplotlib and add the file to your calin directory.
+For DNAplotlib, please download the python code at https://github.com/VoigtLab/dnaplotlib and add the file to your calin script directory.
+For qm, please download the python code at https://pypi.python.org/pypi/qm and add the file to your calin script directory.
 
-To use CALIN, download all python files and place them to a single python diectory (with DNAplotlib).
+To use CALIN, download all python files and place them to the same diectory than DNAplotlib and qm.
 
 ## Getting Started
 
@@ -20,7 +21,7 @@ For execution of the Python codon such as in the CALIN web-interface, [main.py](
 - the number of inputs.
 - the logic function to implement.
 - the output folder.
-Please first create a results folder in your CALIN python directory. The results are saved in ../results/output-folder.
+Please first create a results folder in your CALIN python directory which should contain as well your script directory. The results are saved in ../results/output-folder.
 
 ### Example for Boolean logic
 
