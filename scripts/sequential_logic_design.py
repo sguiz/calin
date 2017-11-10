@@ -392,8 +392,8 @@ def main(nb_input, f, directory_name):
 """
 TEST MAIN
 """
-f='32001'
+#f='32001'
 #name=random.randint(0,10000)
-main('2', f, 'example_seq')    
+#main('2', f, 'example_seq')    
 
     
