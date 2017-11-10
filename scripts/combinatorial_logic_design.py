@@ -258,5 +258,5 @@ def main(nb_input, output, directory_name):
 Test function
 
 """    
-main('2','1001', 'example_boolean')
+#main('2','1001', 'example_boolean')
     
