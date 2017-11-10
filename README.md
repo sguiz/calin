@@ -25,9 +25,8 @@ Please first create a results folder in your CALIN python directory which should
 
 ### Example for Boolean logic
 
-To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).not(C), please execute the code in the terminal as following:
-
-`python directory/main.py 'comb' '2' '10001' 'example_boolean'`
+To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).not(C), 
+please execute the code in the terminal as following: `python directory/main.py 'comb' '2' '10001' 'example_boolean'`
 
 A example_boolean folder will be create in your results directory with 2 genbank files, and 2 image files (see below). All results are available [here](https://github.com/sguiz/calin/tree/master/results/example_boolean).
 
