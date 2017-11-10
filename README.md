@@ -36,8 +36,8 @@ A example_boolean folder will be create in your results directory with 2 genbank
 ### Example for history-dependent logic
 
 To obtain the biological design of the following history-dependent function <img src="https://github.com/sguiz/calin/blob/master/results/example_seq/example_seq_Strain1.png" width="400">
-Please execute the code in the terminal as following:
 
+Please execute the code in the terminal as following:
 `python directory/main.py 'seq' '2' '32001' 'example_seq'`
 
 A example_seq folder will be create in your results directory with 2 genbank files, and 2 image files (see below). All results are available [here](https://github.com/sguiz/calin/tree/master/results/example_seq).
