@@ -27,14 +27,21 @@ Please first create a results folder in your CALIN python directory which should
 
 To obtain the biological design of the boolean function: f=A.B.C+not(A).not(B).not(C), please execute the code in the terminal as following:
 
-`python directory/main.py 'comb' '2' '10001' 'XOR-gate'`
+`python directory/main.py 'comb' '2' '10001' 'example_boolean'`
 
-A XOR-gate folder will be create in your results directory with 2 genbank files, and 2 image files.
+A example_boolean folder will be create in your results directory with 2 genbank files, and 2 image files (see below). All results are available [here](https://github.com/sguiz/calin/tree/master/results/example_boolean).
 
 <img src="https://github.com/sguiz/calin/blob/master/results/example_boolean/example_boolean_Strain1.png" width="400"> <img src="https://github.com/sguiz/calin/blob/master/results/example_boolean/example_boolean_Strain2.png" width="400">
 
-
 ### Example for history-dependent logic
+
+To obtain the biological design of the history-dependent function: not(A).not(B) and A then B, please execute the code in the terminal as following:
+
+`python directory/main.py 'seq' '2' '10001' 'example_seq'`
+
+A example_seq folder will be create in your results directory with 2 genbank files, and 2 image files (see below). All results are available [here](https://github.com/sguiz/calin/tree/master/results/example_seq).
+
+<img src="https://github.com/sguiz/calin/blob/master/results/example_seq/example_seq_Strain1.png" width="400"> <img src="https://github.com/sguiz/calin/blob/master/results/example_seq/example_seq_Strain2.png" width="400">
 
 ## Authors
 
