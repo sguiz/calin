@@ -43,9 +43,9 @@ A example_seq folder will be create in your results directory with 2 genbank fil
 
 <img src="https://github.com/sguiz/calin/blob/master/results/example_seq/example_seq_Strain1.png" width="400"> <img src="https://github.com/sguiz/calin/blob/master/results/example_seq/example_seq_Strain2.png" width="400">
 
-## Authors
+## Author
 
-* **Sarah Guiziou**
+**Sarah Guiziou**
 
 ## License
 
@@ -53,6 +53,6 @@ This project is licensed under the MIT License - see the [LICENSE](LICENSE) file
 
 ## Acknowledgments
 
-* Jerome Bonnet for adivces
+* **Jerome Bonnet** for adivces
 * Ashley Nord for tips on Python
 
