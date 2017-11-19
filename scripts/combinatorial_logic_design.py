@@ -36,10 +36,10 @@ In the order of the inputs: Input1(A) Input2(B) Input3(C).
 """
 
 
-def function_simplification(on_state):
+def function_simplification(on_state, off_state):
 
     dontcares=[]
-    pos_imp=qm2.qm(on_state, dontcares)
+    pos_imp=qm2.qm(ones=on_state, zeros=off_state, dc=dontcares)
       
     return pos_imp
       
@@ -48,7 +48,7 @@ def function_simplification(on_state):
 Test of function_simplification
 
 """
-#print function_simplification([0,1,5])    
+#print function_simplification([0,1,5], [2,3,4])    
 
 
 """
@@ -150,6 +150,7 @@ def design(output, nb_input, path, directory_name):
        
     # initialize the on_sate which will be a list of state equal to 1. The states are identifiy by an integer.        
     on_state=[]
+    off_state=[]
     # index for input state
     x= 0
 
@@ -160,13 +161,15 @@ def design(output, nb_input, path, directory_name):
         if c=='1': 
             # add X to the on_state list              
             on_state.append(x)
+	else:
+	    off_state.append(x)
         
         x+=1
       
     # obtain the simplification from Cain McKluskey algorithm of the on_state
     # pos_imp correspond to a list of string. Number of string correspond to the nb of sub_function
     # Each string is composed of X for whatever, 1 for A or 0 for not(A) and the position of the term correspond to the variable.
-    pos_imp=function_simplification(on_state)
+    pos_imp=function_simplification(on_state, off_state)
     
     #print pos_imp
     
