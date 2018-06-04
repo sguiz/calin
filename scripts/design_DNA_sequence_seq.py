@@ -407,6 +407,6 @@ def design_DNAsequence(nb_input, list_integrase, list_gene_state, nbr_strain, ou
 
    
 """TEST of the design DNA function"""    
-design_DNAsequence(5,[0,3,2,1,4],[0,1,0,3,1,2],'2','0000101010','../results/0','0')    
-design_DNAsequence(3,[1,0,2],[0,0,3,0],'3','0000101010','../results/0','0')    
+#design_DNAsequence(5,[0,3,2,1,4],[0,1,0,3,1,2],'2','0000101010','../results/0','0')    
+#design_DNAsequence(3,[1,0,2],[0,0,3,0],'3','0000101010','../results/0','0')    
 #design_DNAsequence(3,[2,0,1],[4,2,0,1],'1','0000101010','../results/0','0')    
